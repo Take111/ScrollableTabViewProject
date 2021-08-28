@@ -12,4 +12,4 @@ https://user-images.githubusercontent.com/46619995/131211805-c7d11fb9-aff7-4467-
 
 - Problem
 
-When tab is being swiped, view has been initialized.
+When tab is being swiped, views have been initialized.
