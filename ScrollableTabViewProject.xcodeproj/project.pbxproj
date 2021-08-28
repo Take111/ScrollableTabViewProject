@@ -13,6 +13,8 @@
 		CF5FA6A326DA1EF700CDD518 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5FA6A226DA1EF700CDD518 /* Preview Assets.xcassets */; };
 		CF5FA6AE26DA1EF700CDD518 /* ScrollableTabViewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FA6AD26DA1EF700CDD518 /* ScrollableTabViewProjectTests.swift */; };
 		CF5FA6B926DA1EF700CDD518 /* ScrollableTabViewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FA6B826DA1EF700CDD518 /* ScrollableTabViewProjectUITests.swift */; };
+		CF5FA6C726DA1F5E00CDD518 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FA6C626DA1F5E00CDD518 /* FirstView.swift */; };
+		CF5FA6C926DA1F6400CDD518 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FA6C826DA1F6400CDD518 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CF5FA6B426DA1EF700CDD518 /* ScrollableTabViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableTabViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5FA6B826DA1EF700CDD518 /* ScrollableTabViewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabViewProjectUITests.swift; sourceTree = "<group>"; };
 		CF5FA6BA26DA1EF700CDD518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5FA6C626DA1F5E00CDD518 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		CF5FA6C826DA1F6400CDD518 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CF5FA69B26DA1EF500CDD518 /* ScrollableTabViewProjectApp.swift */,
 				CF5FA69D26DA1EF500CDD518 /* ContentView.swift */,
+				CF5FA6C626DA1F5E00CDD518 /* FirstView.swift */,
+				CF5FA6C826DA1F6400CDD518 /* SecondView.swift */,
 				CF5FA69F26DA1EF700CDD518 /* Assets.xcassets */,
 				CF5FA6A426DA1EF700CDD518 /* Info.plist */,
 				CF5FA6A126DA1EF700CDD518 /* Preview Content */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF5FA69E26DA1EF500CDD518 /* ContentView.swift in Sources */,
+				CF5FA6C726DA1F5E00CDD518 /* FirstView.swift in Sources */,
+				CF5FA6C926DA1F6400CDD518 /* SecondView.swift in Sources */,
 				CF5FA69C26DA1EF500CDD518 /* ScrollableTabViewProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
