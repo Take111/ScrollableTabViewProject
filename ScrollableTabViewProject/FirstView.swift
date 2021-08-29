@@ -14,7 +14,14 @@ struct FirstView: View {
     }
 
     var body: some View {
-        Text("FirstView")
+        Menu("Menu") {
+            Button(action: { }, label: {
+                Text("Button1")
+            })
+            Button(action: { }, label: {
+                Text("Button2")
+            })
+        }
     }
 }
 

@@ -15,6 +15,8 @@
 		CF5FA6B926DA1EF700CDD518 /* ScrollableTabViewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FA6B826DA1EF700CDD518 /* ScrollableTabViewProjectUITests.swift */; };
 		CF5FA6C726DA1F5E00CDD518 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FA6C626DA1F5E00CDD518 /* FirstView.swift */; };
 		CF5FA6C926DA1F6400CDD518 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FA6C826DA1F6400CDD518 /* SecondView.swift */; };
+		CFB5CE6826DBC9D700C12420 /* TabViewSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB5CE6726DBC9D700C12420 /* TabViewSelectView.swift */; };
+		CFB5CE6A26DBCB9300C12420 /* ButtonSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB5CE6926DBCB9300C12420 /* ButtonSelectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CF5FA6BA26DA1EF700CDD518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF5FA6C626DA1F5E00CDD518 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		CF5FA6C826DA1F6400CDD518 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		CFB5CE6726DBC9D700C12420 /* TabViewSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSelectView.swift; sourceTree = "<group>"; };
+		CFB5CE6926DBCB9300C12420 /* ButtonSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSelectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				CF5FA69F26DA1EF700CDD518 /* Assets.xcassets */,
 				CF5FA6A426DA1EF700CDD518 /* Info.plist */,
 				CF5FA6A126DA1EF700CDD518 /* Preview Content */,
+				CFB5CE6726DBC9D700C12420 /* TabViewSelectView.swift */,
+				CFB5CE6926DBCB9300C12420 /* ButtonSelectView.swift */,
 			);
 			path = ScrollableTabViewProject;
 			sourceTree = "<group>";
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB5CE6A26DBCB9300C12420 /* ButtonSelectView.swift in Sources */,
 				CF5FA69E26DA1EF500CDD518 /* ContentView.swift in Sources */,
 				CF5FA6C726DA1F5E00CDD518 /* FirstView.swift in Sources */,
 				CF5FA6C926DA1F6400CDD518 /* SecondView.swift in Sources */,
+				CFB5CE6826DBC9D700C12420 /* TabViewSelectView.swift in Sources */,
 				CF5FA69C26DA1EF500CDD518 /* ScrollableTabViewProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
