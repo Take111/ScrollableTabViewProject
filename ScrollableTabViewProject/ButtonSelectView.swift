@@ -67,13 +67,15 @@ struct ButtonSelectView: View {
             .frame(height: 48)
             ZStack {
                 FirstView()
-                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 92)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 160)
                     .isHidden(selectionIndex != 0)
                 SecondView()
-                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 92)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 160)
                     .isHidden(selectionIndex != 1)
             }
         }
+        .navigationTitle("ZStack Pattern")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
